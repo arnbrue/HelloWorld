@@ -1,0 +1,5 @@
+tasks:
+  - init: make Makefile
+    command: ./src/test.sh
+image:
+  file: .gitpod.Dockerfile
